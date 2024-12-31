@@ -1,0 +1,71 @@
+
+
+#header {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* 中央揃え */
+  
+  margin: 0 auto;
+  padding: 0 4%;
+  height: 170px;
+}
+
+.site-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin: 0; /* 不要な余白を削除 */
+  line-height: 1.2; /* 適切な高さを設定 */
+}
+
+.site-title a {
+  color: #24292e;
+  text-align: center; /* テキストを中央揃え */
+  text-decoration: none; /* デコレーションを削除 */
+}
+
+nav {
+  margin-top: 10px; /* サイトタイトルとナビゲーション間のスペースを調整 */
+}
+
+#header ul {
+  display: flex; /* 横並びにする */
+  justify-content: center; /* ナビゲーションを中央揃え */
+  align-items: center; /* 垂直方向を中央揃え */
+  padding: 0;
+  margin: 0;
+  list-style: none; /* デフォルトのリストスタイルを削除 */
+}
+
+#header ul li {
+  margin-left: 30px; /* 項目間のスペースを調整 */
+}
+
+#header ul li:first-child {
+  margin-left: 0; /* 最初の項目の余白を削除 */
+}
+
+#header ul li a {
+  color: #24292e;
+  transition: opacity 0.3s ease;
+}
+
+#header ul li a:hover {
+  opacity: 0.5; /* ホバー時の透明度変更 */
+}
+
+
+#header li img {
+  width: 30px;
+}
+
+#mainvisual {
+  margin-bottom: 80px;
+}
+
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 400px;
+  object-fit: cover;
+}
